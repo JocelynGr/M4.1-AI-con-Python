@@ -105,6 +105,7 @@ while cap.isOpened():
             if distancia_boca > umbral_boca_abierta:
 
                 cv2.putText(image, 'Boca Abierta!', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+                print("La boca está abierta")
 
 
     # Mostrar el resultado en la ventana de video
